@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Hook up the speakButton to the one in our view:
         speakButton = (Button)  findViewById(R.id.speakButton);
-
+//
 
     }
 }
