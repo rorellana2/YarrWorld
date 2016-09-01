@@ -6,7 +6,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Define the button as an instance variable)
+    // Define the button as an instance variable (member variable)
     Button speakButton;
 
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Restoring user settings from a previous session
         super.onCreate(savedInstanceState);
-        // Inflating (!) openning the layout called activity_main (activity_main.xml)
+        // Inflating (!) opening the layout called activity_main (activity_main.xml)
         setContentView(R.layout.activity_main);
 
         // Hook up the speakButton to the one in our view:
